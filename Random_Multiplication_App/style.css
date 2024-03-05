@@ -5,11 +5,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: darkslateblue;
+  background-color: orange;
   font-family: cursive;
 }
 .form {
-  background-color: white;
+  background-color: rgb(23, 2, 82);
   padding: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -23,16 +23,17 @@ body {
   text-align: center;
   padding: 10px;
   border: 4px solid darkslateblue;
-  color: green;
+  color: darkslateblue;
+  background-color: orange;
   border-radius: 10px;
   outline: none;
 }
 .input::placeholder {
-  color: lightgray;
+  color: darkblue;
   font-family: cursive;
 }
 .btn {
-  background-color: darkslateblue;
+  background-color: orange;
   color: white;
   display: block;
   border: none;
@@ -48,8 +49,12 @@ body {
 .btn:hover {
   filter: brightness(0.9);
 }
+h1 {
+  color: orange;
+}
 .score {
-  color: darkslateblue;
-  font-size: 20px;
+  color: orange;
+  font-size: 30px;
   text-align: right;
+  margin-bottom: 5px;
 }

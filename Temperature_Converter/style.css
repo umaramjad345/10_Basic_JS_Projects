@@ -2,12 +2,16 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(to left bottom, lightgreen, lightblue);
+  background: linear-gradient(
+    to left bottom,
+    rgb(129, 128, 128),
+    rgb(14, 1, 85)
+  );
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: monospace;
+  font-family: sans-serif;
   color: darkcyan;
 }
 .container {
@@ -17,22 +21,24 @@ body {
   border-radius: 10px;
   width: 35%;
   max-height: 450px;
-  min-width: 350px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .heading {
   font-size: 32px;
+  color: black;
 }
 .tempContainer {
   width: 100%;
   padding: 15px;
   font-weight: bold;
   font-size: 18px;
+  color: black;
 }
 .input {
-  width: 220px;
+  width: 300px;
   font-family: monospace;
   padding: 5px;
   float: right;
@@ -41,7 +47,7 @@ body {
   border-color: rgba(255, 255, 255, 0.8);
   color: darkslateblue;
   font-size: 18px;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 .input::placeholder {
   color: darkgray;

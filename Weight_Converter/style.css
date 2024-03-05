@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  background: linear-gradient(to left top, yellow, lightblue, yellow);
+  background: linear-gradient(to left top, rgb(165, 165, 165), rgb(74, 74, 75));
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Courier, monospace;
   color: darkcyan;
 }
 .container {
@@ -15,6 +15,10 @@ body {
   border-radius: 10px;
   width: 30%;
   min-width: 450px;
+  color: black;
+}
+h1 {
+  text-align: center;
 }
 .inputContainer {
   display: flex;
@@ -33,7 +37,6 @@ body {
   color: darkgreen;
   outline: none;
 }
-
 .error {
   color: red;
 }
