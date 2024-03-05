@@ -6,9 +6,9 @@ body {
   align-items: center;
   transition: 0.4s;
 }
-/* .input {
-    visibility: hidden;
-  } */
+.input {
+  visibility: hidden;
+}
 .label {
   position: absolute;
   width: 80px;
