@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, purple 20%, orange 80%);
+}
+.menu {
+  background-color: lightgray;
+  width: 300px;
+  opacity: 0.3;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+.menu p {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+.socialLists {
+  background: lightgray;
+  width: 300px;
+  padding: 10px;
+  opacity: 0.3;
+  list-style: none;
+  border-radius: 10px;
+}
+.socialLists li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.socialLists li:hover {
+  background: darkgray;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.socialLists li .fa-brands {
+  margin: 0px 10px;
+}
+.menu .fa-solid {
+  transition: 0.3s linear;
+}
+.rotate .fa-solid {
+  transform: rotate(180deg);
+}
+.hide {
+  visibility: hidden;
+}
